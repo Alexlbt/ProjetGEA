@@ -14,7 +14,7 @@ public class Excel {
 			Workbook workbook = null;
 			try {
 				/* Récupération du classeur Excel (en lecture) */
-				workbook = Workbook.getWorkbook(new File("exemple.xlsx"));
+				workbook = Workbook.getWorkbook(new File("../ProjetGEA/exemple.xls"));
 				
 				/* Un fichier excel est composé de plusieurs feuilles, on y accède de la manière suivante*/
 				Sheet sheet = workbook.getSheet(0);
