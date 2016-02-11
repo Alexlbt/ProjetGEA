@@ -5,7 +5,7 @@ import junit.framework.TestCase;
 
 public class testModules extends TestCase {
 
-	public testModules() {
+	public void testCreationModules() {
 		String nom1 = "M0001 - Module 1";
 		int bareme1 = 20;
 		

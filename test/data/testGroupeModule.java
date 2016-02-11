@@ -6,7 +6,7 @@ import junit.framework.TestCase;
 
 public class testGroupeModule extends TestCase {
 	
-	public testGroupeModule() {
+	public void testCreationGroupeModule() {
 		
 		//creation de modules
 		String nom1 = "M0001 - Module 1";
